@@ -1,0 +1,24 @@
+PuertoRandom.py
+
+Selects a random set of buildings for the board game Puerto Rico!
+The script will not generate setups that contain the following combinations:
+	* Hacienda / Forest House
+	* Office / Trading Post
+	* Factory / Specialty Factory
+	* Villa / Jeweler
+
+To generate a setup that includes buildings from the base game and the first expansion, run:
+	PuertoRandom.py
+	
+The rules for the second expansion are to play with everything, but you have the option to include the buildings from the second expansion in a random setup if you prefer.
+	
+To specify which expansions to include, pass them as parameters:
+	ONLY FIRST EXPANSION
+		PuertoRandom.py 1
+	ONLY SECOND EXPANSION
+		PuertoRandom.py 2
+	BOTH EXPANSIONS
+		PuertoRandom.py 1 2
+		
+- Chris Reimer
+  BGG: www.boardgamegeek.com/user/pence
